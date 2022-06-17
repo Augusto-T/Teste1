@@ -75,12 +75,3 @@ namespace Teste1
 
 
 
- //<Grid Height="145" Width="460" VerticalAlignment="Top" Margin="0,84,0,0" >
- //       <Label Content="User:"  Margin="226,12,21,0" VerticalAlignment="Top" FontSize="14"/>
- //       <Label Content="Senha:"  Margin="226,42,11,0" VerticalAlignment="Top" FontSize="14"/>
- //       <TextBox HorizontalAlignment="Left" Name="UsuarioTextBox" Margin="290,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
- //       <TextBox HorizontalAlignment="Left" Name="PasswordBox" Margin="290,47,0,0" VerticalAlignment="Top" Width="120"/>
- //       <Button Content="Logar" HorizontalAlignment="Left" Margin="349,72,0,0" VerticalAlignment="Top" Width="61" Click="Button_Click"/>
- //       <Image HorizontalAlignment="Left" Height="126" Margin="36,0,0,0" VerticalAlignment="Top" Width="125" Source="/295128.png"/>
-
- //   </Grid>
