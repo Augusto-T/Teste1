@@ -36,11 +36,6 @@ namespace Teste1
             user.Name = "Augusto";
             user.Senha = "1234";
 
-            //Binding bindingUser = new Binding();
-            //bindingUser.Source = usuario;
-
-            //Binding bindingPassword = new Binding();
-            //bindingPassword.Source = password;
 
             string testeuser = usuario.Text;
             string testesenha = password.Password.ToString();
