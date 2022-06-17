@@ -48,6 +48,8 @@ namespace Teste1
             else if (testeuser == user.Name && testesenha == user.Senha )
             {
                 this.Close();
+                Sarf sarf = new Sarf();
+                sarf.Show();
 
             }
             else

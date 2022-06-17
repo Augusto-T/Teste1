@@ -24,7 +24,7 @@
         </Grid.ColumnDefinitions>
 
         <TextBlock Grid.Row="1" Grid.Column="1" Text="Nome:" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="18"></TextBlock>
-        <TextBox Name="usuario" Grid.Row="1" Grid.Column="1" Text="{Binding user, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center" HorizontalAlignment="Left" Width="80" Margin="65,0,0,0"></TextBox>
+        <TextBox Name="usuario" Grid.Row="1" Grid.Column="1"  VerticalAlignment="Center" HorizontalAlignment="Left" Width="80" Margin="65,0,0,0"></TextBox>
         <TextBlock Grid.Row="2" Grid.Column="1" Text="Senha:" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="18"></TextBlock>
         <PasswordBox Name="password" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left" Width="80" Margin="65,0,0,0"></PasswordBox>
         <Button Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" Width="auto" Height="auto" Content="Enviar" Margin="8" Click="Button_Click" FontSize="14"></Button>

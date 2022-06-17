@@ -28,8 +28,8 @@
             <TextBlock Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Status da licença: "  FontSize="18" Height="24" Width="148" FontWeight="Bold"/>
             <Label Name="lbTextoFalse" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Sem licença" Visibility="Collapsed" Margin="10" FontSize="18"></Label>
             <Label Name="lbTextoTrue" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Com licença" Visibility="Collapsed" Margin="10" FontSize="18"></Label>
-            <Image Name="imgFalse" Grid.Row="1" Source="/cruz.png" Height="30"  Visibility="Collapsed" ></Image>
-            <Image Name="imgTrue"  Grid.Row="1" Source="/aceitar.png" Height="30"  Visibility="Collapsed" ></Image>
+            <Image Name="imgFalse" Grid.Row="1" Source="imagens/cruz.png" Height="30"  Visibility="Collapsed" ></Image>
+            <Image Name="imgTrue"  Grid.Row="1" Source="imagens/aceitar.png" Height="30"  Visibility="Collapsed" ></Image>
         </WrapPanel>
         <Button Grid.Row="2" Margin="10" Width="122" Height="20" Content="Verificar Novamente" VerticalAlignment="Bottom" HorizontalAlignment="Left" Click="VerificButton" />
     </Grid>
