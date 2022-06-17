@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="aceitar.png" />
+    <None Remove="cruz.png" />
+    <None Remove="Login.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.Identity.EntityFramework" Version="2.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="imagens\aceitar.png" />
+    <Resource Include="imagens\cruz.png" />
+    <Resource Include="imagens\Login.png" />
+  </ItemGroup>
+
+</Project>
